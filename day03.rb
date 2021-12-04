@@ -23,7 +23,8 @@ end
 puts "Part one: #{gamma.to_i(2) * epsilon.to_i(2)}"
 
 co_data =* data
-
+c = ""
+d = ""
 (0..co_data[0].length - 1).each do | i |
     temp = Array.new
     columns = co_data.transpose()
@@ -41,7 +42,7 @@ co_data =* data
     end
     co_data =* temp
     if co_data.length == 1
-        $c = co_data[0].join("")
+        c = co_data[0].join("")
     end
 end
 
@@ -64,8 +65,8 @@ ox_data =* data
     end
     ox_data =* temp
     if ox_data.length == 1
-        $d = ox_data[0].join("")
+        d = ox_data[0].join("")
     end
 end
 
-puts "Part two: #{$c.to_i(2) * $d.to_i(2)}"
+puts "Part two: #{c.to_i(2) * d.to_i(2)}"
