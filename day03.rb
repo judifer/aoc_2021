@@ -8,7 +8,7 @@ epsilon = ""
     data[i] = data[i].split("").map(&:to_i)
 end
 
-columns = data.transpose()
+columns = data.transpose
 
 columns.each do | i |
     if i.sum > i.length / 2
@@ -27,7 +27,7 @@ c = ""
 d = ""
 (0..co_data[0].length - 1).each do | i |
     temp = Array.new
-    columns = co_data.transpose()
+    columns = co_data.transpose
     if columns[i].sum == columns[i].length / 2
         a = 1
     elsif columns[i].sum > columns[i].length / 2
@@ -50,7 +50,7 @@ ox_data =* data
 
 (0..ox_data[0].length - 1).each do | i |
     temp = Array.new
-    columns = ox_data.transpose()
+    columns = ox_data.transpose
     if columns[i].sum == columns[i].length / 2
         a = 0
     elsif columns[i].sum > columns[i].length / 2
