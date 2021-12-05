@@ -28,14 +28,14 @@ for i in data:
             for j in range(x2, x1 + 1):
                 grid[j][y2] += 1
 
-cunt = 0
+count = 0
 
 for i in grid:
     for j in i:
         if j > 1:
-            cunt += 1
+            count += 1
 
-print("Part one:", cunt)
+print("Part one:", count)
 
 for line in data:
     x1, y1, x2, y2 = line
@@ -63,11 +63,11 @@ for line in data:
                     x1 -= 1
                     y1 -= 1
 
-cunt = 0
+count = 0
 
 for i in grid:
     for j in i:
         if j > 1:
-            cunt += 1
+            count += 1
 
-print("Part two:", cunt)
+print("Part two:", count)
