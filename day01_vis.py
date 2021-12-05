@@ -9,7 +9,7 @@ line = list([0] * (len(steps)))
 
 fig, axe = plt.subplots(dpi=300)
 for i in steps:
-    if i < 2:
+    if i > 2:
         plt.plot(steps[(i - 2):i], line[(i - 2):i], "b")
         plt.plot(steps[(i - 2):i], data[(i - 2):i], "y")
         fig.savefig(f"img/img{i}.png")
