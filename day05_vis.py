@@ -83,6 +83,6 @@ for i in range(0, len(grid)):
 fig, axe = plt.subplots(dpi=300)
 for i in coords:
     x, y = i
-    axe.plot(x, y, "r.")
+    axe.plot(x, y, "rx")
 fig.savefig("img/grid.png")
 plt.close(fig)
