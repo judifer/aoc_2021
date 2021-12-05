@@ -60,9 +60,9 @@ def print_boards(org_boards, img):
         if len(org_boards) != 100:
             return
         if img > 0:
-            print(f"                     Round {img}\n")
+            print(f"{' ' * 96}Checking no {numbers[img - 1]}\n")
         else:
-            print(".....................Initializing.....................\n")
+            print(f"{' ' * 96}Initializing...\n")
         rows = 8
         columns = 13
         for row in range(rows):
@@ -81,11 +81,18 @@ def print_boards(org_boards, img):
     sys.stdout = stdout
 
 def print_row(row):
-    show = [
-        " " if i is None else i
-        for i
-        in row
-    ]
+    pos_cnt = 0
+    for i in row:
+        if i == None:
+            pos_cnt += 1
+    if pos_cnt == 5:
+        show = ["B", "I", "N", "G", "O"]
+    else:
+        show = [
+            " " if i is None else i
+            for i
+            in row
+        ]
     print(f"{show[0]:>2} {show[1]:>2} {show[2]:>2} {show[3]:>2} {show[4]:>2}", end='')
 
 def prep_winners(board, win):
