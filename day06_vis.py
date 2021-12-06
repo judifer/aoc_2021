@@ -1,3 +1,5 @@
+import matplotlib.pyplot as plt
+
 with open("day6.txt") as f:
     data = f.read()
 
@@ -11,6 +13,11 @@ for i in fish:
 
 x = 0
 
+graph = list()
+fishies = breed.values()
+number = sum(fishies)
+graph.append(number)
+
 while x < 256:
     for fi in range(0, 10):
         if fi == 0:
@@ -20,9 +27,12 @@ while x < 256:
         else:
             breed[fi - 1] += breed[fi]
             breed[fi] = 0
+    fishies = breed.values()
+    number = sum(fishies)
+    graph.append(number)
+    steps = list(range(0, len(graph)))
+    fig, axe = plt.subplots(dpi=300)
+    axe.plot(steps, graph, "r")
+    fig.savefig(f"img/grid{x}.png")
+    plt.close(fig)
     x += 1
-
-stages = breed.values()
-result = sum(stages)
-
-print(result)
