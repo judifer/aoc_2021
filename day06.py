@@ -6,7 +6,6 @@ fish = list(map(int, data.split(",")))
 breed = dict()
 for i in range(0, 10):
     breed[i] = 0
-    
 for i in fish:
     breed[i] += 1
 
@@ -23,8 +22,7 @@ while x < 256:
             breed[fi] = 0
     x += 1
 
-result = 0
-for fi in range(0, 10):
-    result += breed[fi]
+stages = breed.values()
+result = sum(stages)
 
 print(result)
