@@ -1,3 +1,5 @@
+import matplotlib.pyplot as plt
+
 with open("day6.txt") as f:
     data = f.read()
 
@@ -20,6 +22,10 @@ while x < 256:
         else:
             breed[fi - 1] += breed[fi]
             breed[fi] = 0
+    fig, axe = plt.subplots(dpi=300)
+    label = breed.keys()
+    values = breed.values()
+    axe.bar(label, values)
+    fig.savefig(f"img/grid{x}.png")
+    plt.close(fig)
     x += 1
-
-print(sum(breed.values()))
