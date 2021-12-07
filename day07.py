@@ -2,32 +2,32 @@ with open("day7.txt") as f:
     text = f.read()
 
 data = list(map(int, text.split(",")))
+data.sort()
+
+fuel = 0
+
+for i in range(min(data), max(data)):
+    prev = fuel
+    fuel = 0
+    for crab in data:
+        fuel += abs(crab - i)
+    if i > 0 and fuel > prev:
+        fuel = prev
+        break
+
+print("Part one:", fuel)
 
 fuel = list()
 
+fuel = 0
 for i in range(min(data), max(data)):
-    counter = 0
+    prev = fuel
+    fuel = 0
     for crab in data:
-        if crab > i:
-            counter += crab - i
-        elif crab < i:
-            counter += i - crab
-    fuel.append(counter)
+        steps = abs(crab - i)
+        fuel += int(steps * (steps + 1) / 2)
+    if i > 0 and fuel > prev:
+        fuel = prev
+        break
 
-print("Part one:", min(fuel))
-
-fuel = list()
-
-for i in range(min(data), max(data)):
-    counter = 0
-    for crab in data:
-        steps = 1
-        if crab > i:
-            steps = crab - i
-            counter += steps * (steps + 1) / 2
-        elif crab < i:
-            steps = i - crab
-            counter += steps * (steps + 1) / 2
-    fuel.append(counter)
-
-print("Part two:", min(fuel))
+print("Part two:", fuel)
