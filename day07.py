@@ -4,7 +4,7 @@ with open("day7.txt") as f:
 data = list(map(int, text.split(",")))
 data.sort()
 
-fuel = sum([abs(x - data[((len(data) + 1) // 2)]) for x in data])
+fuel = sum(abs(x - data[((len(data) + 1) // 2)]) for x in data)
 
 print("Part one:", fuel)
 
