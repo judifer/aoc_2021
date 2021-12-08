@@ -17,7 +17,9 @@ def print_boards(num, line, idx):
     stdout = sys.stdout
     with open(f"img/img{idx:03d}.txt", "w") as f:
         sys.stdout = f
-        print(f"{' ' * 33}Line number {idx + 1}:\n{line}\n")
+        a = 100
+        print(f"{' ' * ((100 - 16) // 2)}Line number {idx + 1}:\n")
+        print(f"{' ' * ((100 - len(line)) // 2)}{line}{' ' * ((100 - len(line)) // 2)}")
         a = print_num(num[0])
         b = print_num(num[1])
         c = print_num(num[2])
@@ -26,7 +28,7 @@ def print_boards(num, line, idx):
         print()
         print()
         for i in range(0, len(a)):
-            print(f"{' ' * 30}{a[i][0]}   {b[i][0]}   {c[i][0]}   {d[i][0]}{' ' * 30}")
+            print(f"{' ' * ((100 - 33) // 2)}{a[i][0]}   {b[i][0]}   {c[i][0]}   {d[i][0]}")
         print()
         print()
         print()
