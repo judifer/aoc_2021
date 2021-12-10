@@ -34,7 +34,6 @@ print("Part 1:", score)
 
 points = {"(": 1, "[": 2, "{": 3, "<": 4}
 
-score = 0
 scores = list()
 for i in incomplete_lines:
     score = 0
