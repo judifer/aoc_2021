@@ -27,8 +27,7 @@ for i in data:
             else:
                 score += points[j]
                 break
-    else:
-        incomplete_lines.append(instruction)
+    incomplete_lines.append(instruction)
 
 
 print("Part 1:", score)
