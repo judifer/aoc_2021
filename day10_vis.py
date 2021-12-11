@@ -43,9 +43,9 @@ for num in range(0, len(to_print)):
         sys.stdout = f
         if num > 30:
             for line in range(num - 30, num):
-                print(to_print[num])
+                print(to_print[line])
         else:
             for line in range(0, num):
-                print(to_print[num])
+                print(to_print[line])
             print("\n" * (29 - num))
     sys.stdout = stdout
