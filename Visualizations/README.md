@@ -40,11 +40,11 @@ You can find the code for the visualizations alongside the solutions to each puz
 
 ##### Visualizing the growth rate of lanternfish
 
-<img src="Day6_gif.gif" alt="Day 6 Visualization" width="600"/>
+<img src="Day6_Gif.gif" alt="Day 6 Visualization" width="600"/>
 
 ##### Visualizing the time until birth for our lanternfish
 
-<img src="Day6_gif_2.gif" alt="Day 6 Visualization" width="600"/>
+<img src="Day6_Gif_2.gif" alt="Day 6 Visualization" width="600"/>
 
 #### Day 7 - The Treachery of Whales
 
