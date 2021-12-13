@@ -81,8 +81,9 @@ for i in range(0, len(grid)):
             coords.append((i, j))
 
 fig, axe = plt.subplots(dpi=300)
+axe.set_title("Danger spots - where geyser lines meet")
 for i in coords:
     x, y = i
     axe.plot(x, y, "rx")
-fig.savefig("img/grid.png")
+fig.savefig("Visualizations/Day5_Visualization.png")
 plt.close(fig)
