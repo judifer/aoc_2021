@@ -8,13 +8,13 @@ You can find the code for the visualizations alongside the solutions to each puz
 
 #### Day 1 - Sonar Sweep
 
-##### Visualizing the ocean floor
+##### Ocean floor in sonar sweep
 
 <img src="Day1_gif.gif" alt="Day 1 Visualization" width="600"/>
 
 #### Day 2 - Dive!
 
-##### Visualizing the ocean floor vs. the route our submarine takes
+##### Ocean floor vs. the route our submarine takes
 
 <img src="Day2_gif.gif" alt="Day 2 Visualization" width="600"/>
 
@@ -32,17 +32,17 @@ You can find the code for the visualizations alongside the solutions to each puz
 
 #### Day 5 - Hydrothermal Venture
 
-##### Visualizing the danger-spots where two or more geyser-lines overlap
+##### Danger-spots where two or more geyser-lines overlap
 
 <img src="Day5_Visualization.png" alt="Day 5 Visualization" width="600"/>
 
 #### Day 6 - Lanternfish
 
-##### Visualizing the growth rate of lanternfish
+##### Growth rate of lanternfish
 
 <img src="Day6_Gif.gif" alt="Day 6 Visualization" width="600"/>
 
-##### Visualizing the time until birth for our lanternfish
+##### Time until birth for our lanternfish
 
 <img src="Day6_Gif_2.gif" alt="Day 6 Visualization" width="600"/>
 
@@ -54,7 +54,7 @@ You can find the code for the visualizations alongside the solutions to each puz
 
 #### Day 8 - Seven Segment Search
 
-##### Visualizing each line, decoded
+##### Decoding each line
 
 <img src="Day8_gif.gif" alt="Day 8 Visualization" width="600"/>
 
@@ -66,24 +66,24 @@ You can find the code for the visualizations alongside the solutions to each puz
 
 #### Day 10 - Syntax Scoring
 
-##### Visualizing each line and what's wrong with it
+##### Each line and what's wrong with it
 
 <img src="Day10_gif.gif" alt="Day 10 Visualization" width="600"/>
 
 #### Day 11 - Dumbo Octopus
 
-##### Visualizing the flashing octopi with a heat map after every step
+##### Flashing octopi until they're synchronized
 
 <img src="Day11_gif.gif" alt="Day 11 Visualization" width="600"/>
 
 #### Day 12 - Passage Pathing
 
-##### Visualizing the map of our cave system
+##### Map of our cave system
 
 <img src="Day12_Visualization.png" alt="Day 12 Visualization" width="600"/>
 
-#### Day 13
+#### Day 13 - Transparent Origami
 
-##### Visualizing our folded piece of paper
+##### Message on our folded piece of paper
 
 <img src="Day13_Visualization.png" alt="Day 13 Visualization" width="600"/>
