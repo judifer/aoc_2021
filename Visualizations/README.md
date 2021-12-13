@@ -81,3 +81,9 @@ You can find the code for the visualizations alongside the solutions to each puz
 ##### Visualizing the map of our cave system
 
 <img src="Day12_Visualization.png" alt="Day 12 Visualization" width="600"/>
+
+#### Day 13
+
+##### Visualizing our folded piece of paper
+
+<img src="Day13_Visualization.png" alt="Day 13 Visualization" width="600"/>
