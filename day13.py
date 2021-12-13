@@ -6,8 +6,7 @@ with open("day13.txt") as f:
 coords = [[int(x) for x in y.split(",")] for y in data[0].split("\n")]
 directions = [[x for x in y.split(" ")] for y in data[1].split("\n")]
 dirs = list()
-for i in directions:
-    a, b, c = i
+for a, b, c in directions:
     d, e = c.split("=")
     dirs.append([d, int(e)])
 
@@ -19,8 +18,8 @@ def fold_up(x):
             coords[i][1] = new_cord
         new_coords.add((coords[i][0], coords[i][1]))
     c = list()
-    for j in new_coords:
-        c.append([j[0], j[1]])
+    for j, g in new_coords:
+        c.append([j, g])
     return c
 
 def fold_left(x):
@@ -31,8 +30,8 @@ def fold_left(x):
             coords[i][0] = new_cord
         new_coords.add((coords[i][0], coords[i][1]))
     c = list()
-    for j in new_coords:
-        c.append([j[0], j[1]])
+    for j, g in new_coords:
+        c.append([j, g])
     return c
 
 for i in dirs:
@@ -44,20 +43,12 @@ for i in dirs:
     if i == dirs[0]:
         print("Part 1:", len(coords))
 
-max_x = list()
-max_y = list()
-for i in coords:
-    max_x.append(i[0])
-    max_y.append(i[1])
-
-a = max(max_x)
-b = max(max_y)
+a = max([x for x, _ in coords])
+b = max([y for _, y in coords])
 
 grid = np.zeros(shape=(b + 1, a + 1))
 
-for i in coords:
-    x = i[0]
-    y = i[1]
+for x, y in coords:
     grid[y][x] = 1
 
 print(grid)
