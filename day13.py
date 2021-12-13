@@ -35,8 +35,6 @@ def fold_left(x):
         c.append([j[0], j[1]])
     return c
 
-new_coords = set()
-
 for i in dirs:
     num = i[1]
     if i[0] == "x":
