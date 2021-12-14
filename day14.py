@@ -12,11 +12,14 @@ for x, y in directions:
 
 pairs = defaultdict(int)
 
-for i in range(1, len(pol)):
-    a = pol[i - 1][0] + pol[i][0]
-    pairs[a] += 1
+vals = defaultdict(int)
 
-print(pairs)
+for i in range(0, len(pol)):
+    vals[pol[i][0]] += 1
+    if i > 0:
+        a = pol[i - 1][0] + pol[i][0]
+        pairs[a] += 1
+
 for i in range(40):
     temp = defaultdict(int)
     for p in pairs.keys():
@@ -25,16 +28,13 @@ for i in range(40):
         b = ins + p[1]
         temp[a] += pairs[p]
         temp[b] += pairs[p]
+        vals[ins] += pairs[p]
     pairs = temp
+    if i == 9:
+        a = max(vals.values())
+        b = min(vals.values())
+        print("Part 1:", a - b)
 
-# vals = defaultdict(int)
-
-# for i in pairs.keys():
-#     vals[i[0]] += pairs[i]
-
-print(vals)
-
-maxp = max(vals.values())
-minp = min(vals.values())
-
-print(maxp - minp)
+a = max(vals.values())
+b = min(vals.values())
+print("Part 2:", a - b)
