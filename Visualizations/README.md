@@ -6,6 +6,23 @@ For this year's Advent of Code, I've set myself the challenge to visualize every
 
 You can find the code for the visualizations alongside the solutions to each puzzle, named *dayXX_vis.py*
 
+#### Quicklinks:
+
+[Day 1 - Sonar Sweep](#day-1---sonar-sweep)
+[Day 2 - Dive!](#day-2---dive!)
+[Day 3 - Binary Diagnostic](#day-3---binary-diagnostic)
+[Day 4 - Sonar Sweep](#day-4---giant-squid)
+[Day 5 - Hydrothermal Venture](#day-5---hydrothermal-venture)
+[Day 6 - Lanternfish](#day-6---lanternfish)
+[Day 7 - The Treachery of Whales](#day-7---the-treachery-of-whales)
+[Day 8 - Seven Segment Search](#day-8---seven-segment-search)
+[Day 9 - Smoke Basin](#day-9---smoke-basin)
+[Day 10 - Syntax Scoring](#day-10---syntax-scoring)
+[Day 11 - Dumbo Octobus](#day-11---dumbo-octopus)
+[Day 12 - Passage Pathing](#day-12---passage-pathing)
+[Day 13 - Transparent Origami](#day-13---transparent-origami)
+[Day 14 - Extended Polymerization](#day-14---extended-polymerization)
+
 #### Day 1 - Sonar Sweep
 
 ##### Ocean floor in sonar sweep
