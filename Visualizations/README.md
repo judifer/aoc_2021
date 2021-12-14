@@ -87,3 +87,9 @@ You can find the code for the visualizations alongside the solutions to each puz
 ##### Message on our folded piece of paper
 
 <img src="Day13_Visualization.png" alt="Day 13 Visualization" width="600"/>
+
+#### Day 14 - Extended Polymerization
+
+<img src="Day14_Visualization.png" alt="Day 14 Visualization" width="600"/>
+
+<img src="Day14_gif.gif" alt="Day 14 Visualization" width="600"/>
