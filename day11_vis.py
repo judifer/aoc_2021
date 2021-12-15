@@ -7,6 +7,8 @@ with open("day11.txt") as f:
 data = np.pad(data, pad_width=1, constant_values=100)
 # print(data)
 
+neighbours = dict()
+
 def get_neighbours(y, x):
     neighbours = [(x + 1, y), (x -1, y), (x, y + 1), (x, y - 1), (x + 1, y + 1), (x + 1, y - 1), (x - 1, y + 1), (x - 1, y - 1)]
     global flashes

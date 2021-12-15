@@ -28,13 +28,15 @@ You can find the code for the visualizations alongside the solutions to each puz
 
 [Day 10 - Syntax Scoring](#day-10---syntax-scoring)
 
-[Day 11 - Dumbo Octobus](#day-11---dumbo-octopus)
+[Day 11 - Dumbo Octopus](#day-11---dumbo-octopus)
 
 [Day 12 - Passage Pathing](#day-12---passage-pathing)
 
 [Day 13 - Transparent Origami](#day-13---transparent-origami)
 
 [Day 14 - Extended Polymerization](#day-14---extended-polymerization)
+
+[Day 15 - Chiton](#day-15---chiton)
 
 #### Day 1 - Sonar Sweep
 
@@ -123,3 +125,11 @@ You can find the code for the visualizations alongside the solutions to each puz
 <img src="Day14_Visualization.png" alt="Day 14 Visualization" width="600"/>
 
 <img src="Day14_gif.gif" alt="Day 14 Visualization" width="600"/>
+
+#### Day 15 - Chiton
+
+##### A graph of the weighted connections in our initial cave system *(or: an illustration of the brain gymnastics I did while solving this puzzle)*
+
+<img src="Day15_Visualization_1.png" alt="Day 15 Visualization" width="600"/>
+
+<img src="Day15_Visualization_2.png" alt="Day 15 Visualization" width="600"/>
