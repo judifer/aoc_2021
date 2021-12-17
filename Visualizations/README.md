@@ -38,6 +38,10 @@ You can find the code for the visualizations alongside the solutions to each puz
 
 [Day 15 - Chiton](#day-15---chiton)
 
+[Day 16 - Packet Decoder](#day-16---packet-decoder)
+
+[Day 17 - Trick Shot](#day-17---trick-shot)
+
 #### Day 1 - Sonar Sweep
 
 ##### Ocean floor in sonar sweep
@@ -133,3 +137,11 @@ You can find the code for the visualizations alongside the solutions to each puz
 <img src="Day15_Visualization_1.png" alt="Day 15 Visualization" width="600"/>
 
 <img src="Day15_Visualization_2.png" alt="Day 15 Visualization" width="600"/>
+
+#### Day 16 - Packet Decoder
+
+<img src="Day16_Visualization.png" alt="Day 16 Visualization" width="600"/>
+
+#### Day 17 - Trick Shot
+
+<img src="Day17_Visualization.png" alt="Day 17 Visualization" width="600"/>
