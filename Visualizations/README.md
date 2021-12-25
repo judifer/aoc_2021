@@ -42,6 +42,8 @@ You can find the code for the visualizations alongside the solutions to each puz
 
 [Day 17 - Trick Shot](#day-17---trick-shot)
 
+[Day 25 - Sea Cucumber](#day-25---sea-cucumber)
+
 #### Day 1 - Sonar Sweep
 
 ##### Ocean floor in sonar sweep
@@ -145,3 +147,7 @@ You can find the code for the visualizations alongside the solutions to each puz
 #### Day 17 - Trick Shot
 
 <img src="Day17_Visualization.png" alt="Day 17 Visualization" width="600"/>
+
+#### Day 25 - Sea Cucumber
+
+<img src="Day25_gif.gif" alt="Day 25 Visualization" width="600"/>
